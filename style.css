@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; color: #222; background: #f4f6f8; margin: 0; line-height: 1.5; }
+.container { max-width: 920px; margin: 24px auto; padding: 20px 24px; background: #fff; border: 1px solid #dde; }
+nav a { margin-right: 16px; color: #1f4e79; font-weight: bold; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+h1 { margin: 8px 0 4px; font-size: 24px; }
+h2 { font-size: 18px; margin-top: 22px; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 12px 0; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+th { background: #f0f0f0; }
+
+.btn { display: inline-block; padding: 6px 12px; border: 1px solid #1f4e79; background: #fff; color: #1f4e79;
+       text-decoration: none; font-size: 14px; font-family: inherit; cursor: pointer; }
+.btn:hover { background: #eef3f8; }
+.btn-primary { background: #1f4e79; color: #fff; }
+.btn-primary:hover { background: #173a5a; }
+.btn-danger { background: #8f2d38; border-color: #8f2d38; color: #fff; }
+.btn-danger:hover { background: #6f222b; }
+
+.pesan { padding: 10px 12px; margin: 12px 0; background: #f0f0f0; border-left: 4px solid #888; }
+.pesan ul { margin: 0; padding-left: 20px; }
+.pesan.sukses { background: #eaf6ee; border-color: #2d7d46; }
+.pesan.error { background: #fbeeee; border-color: #8f2d38; color: #8f2d38; }
+
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
+.cari { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.cari input[type="text"] { flex: 1; min-width: 160px; }
+.kosong { border: 1px dashed #aaa; padding: 18px; margin-top: 14px; }
+
+.form p { margin: 0 0 14px; }
+.form label { font-weight: bold; }
+.form, .cari { }
+input[type="text"], input[type="number"], input[type="date"], select, textarea {
+    width: 100%; padding: 8px; border: 1px solid #bbb; font-family: inherit; font-size: 14px; }
+.cari select { width: 260px; }
+.form input, .form select, .form textarea { margin-top: 4px; }
+.aksi { display: flex; gap: 8px; align-items: center; }
+
+dl.detail { display: grid; grid-template-columns: 170px 1fr; gap: 8px 12px; }
+dl.detail dt { font-weight: bold; }
+dl.detail dd { margin: 0; }
+
+.stat { display: flex; gap: 40px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 12px 0; margin: 14px 0; }
+.stat strong { display: block; font-size: 24px; }
